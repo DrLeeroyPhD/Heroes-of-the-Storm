@@ -1,4 +1,19 @@
+// Extensions/Inheritance
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 body {
-    background-color: #19294d;
+    background-color: #181422;
     background-image: url(../img/nexus.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+header {
+    img{
+        @extend .centered;
+        display: block;
+    }
 }
