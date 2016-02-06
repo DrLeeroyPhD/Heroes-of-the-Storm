@@ -15,8 +15,8 @@
             <img src="img/Heroes_of_the_Storm_logo.png">
         </header>
         <div id="main-container" ng-controller="mainCtrl">
-            <div class="container">
-                
+            <div class="container" ng-repeat="hero in heroes">
+                <p>{{hero.name}}</p>
             </div>
         </div>
         

@@ -17,3 +17,14 @@ header {
         display: block;
     }
 }
+
+#main-container{
+    .container{
+        display: inline-block;
+        margin: 10px;
+        
+        p{
+            color: #d3d9de;
+        }
+    }
+}

@@ -13,3 +13,12 @@ body {
 header img {
   display: block;
 }
+
+#main-container .container {
+  display: inline-block;
+  margin: 10px;
+}
+
+#main-container .container p {
+  color: #d3d9de;
+}
