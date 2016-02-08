@@ -16,8 +16,8 @@
         </header>
         <div id="main-container" ng-controller="mainCtrl">
             <div class="container" ng-repeat="hero in heroes">
-                <h2>{{hero.name}}</h2>
-                <h4>{{hero.title}}</h4>
+                <p>{{hero.name}}</p>
+                <img ng-src="img/character_icons/{{hero.id}}.png">
             </div>
         </div>
         

@@ -16,10 +16,11 @@ header img {
 
 #main-container .container {
   display: inline-block;
-  margin: 10px;
+  margin: 20px;
   color: #d3d9de;
 }
 
 #main-container .container p {
   color: #d3d9de;
+  text-align: center;
 }
