@@ -17,6 +17,7 @@ header img {
 #main-container .container {
   display: inline-block;
   margin: 10px;
+  color: #d3d9de;
 }
 
 #main-container .container p {
