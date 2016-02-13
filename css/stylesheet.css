@@ -24,3 +24,10 @@ header img {
   color: #d3d9de;
   text-align: center;
 }
+
+#main-container .container img {
+  padding: 2px;
+  background-color: #025aa7;
+  border: solid 1px black;
+  border-radius: 50%;
+}
